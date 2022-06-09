@@ -1,7 +1,7 @@
 """
 script to get list from a text file 
 without any separator
-""""
+"""
 
 def texttolist(filename: str) -> list:
     with open(filename) as file:
